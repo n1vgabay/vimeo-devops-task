@@ -13,4 +13,6 @@ CI/CD:
 - First promotion needs to be for QA, which can have another invoke of workflow for automated testings.
 - After microservices new version is tested on QA env, open PR can be created or be automated as well to be open when tests finished in order to upgrade stage env as well.
 - Double approve for the recent changes in stage to verify functionalliy indeed applied without any issues.
-- Then after release approved we can upgrade our prod envs for the relevant services taken into account for the upcoming company changes.
+- Then after release approved we can upgrade our prod envs for the relevant services taken into account for the upcoming company changes. The app is flexiable to take any config for the relevant enviornment.
+
+* The value CURRENCYFREAKS_API_KEY in dev_config.json is for demo purposes only. Sensitive information shouldn't be in github and more likely to be pulled using some secure authentication.
