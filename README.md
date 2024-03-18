@@ -6,6 +6,8 @@
 
 This Flask application serves as a simple exchange rate converter. Users can input source currency, target currency, and the amount they wish to convert. The application fetches the latest exchange rates from an external API and calculates the converted amount based on the provided inputs. It provides a user-friendly interface for quick and convenient currency conversion.
 
+![Alt text](https://ibb.co/f0NFBN2)
+
 CI/CD:
 - Auto-deploy for dev env by commiting changes in GitOps repository (Example: override image tag in envs/dev/microservice/values.yaml)
 - Manual workflow for microservices promotion between envs -> Open PR for apply new versions changes
