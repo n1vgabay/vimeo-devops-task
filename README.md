@@ -17,4 +17,4 @@ CI/CD:
 - Double approve for the recent changes in stage to verify functionalliy indeed applied without any issues.
 - Then after release approved we can upgrade our prod envs for the relevant services taken into account for the upcoming company changes. The app is flexiable to take any config for the relevant enviornment.
 
-* The value CURRENCYFREAKS_API_KEY in dev_config.json is for demo purposes only. Sensitive information shouldn't be in github and more likely to be pulled using some secure authentication.
+* The value CURRENCYFREAKS_API_KEY in dev_config.json is for demo purposes only. Sensitive information shouldn't be in github and more likely to be pulled using some secure authentication/github sercrets etc.
